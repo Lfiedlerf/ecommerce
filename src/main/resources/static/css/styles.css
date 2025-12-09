@@ -1,0 +1,47 @@
+/* Fondo general negro */
+body {
+    background-color: #121212; /* Negro suave para no cansar la vista */
+    color: #e0e0e0; /* Texto gris muy claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section con imagen de fondo oscura */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+            url('/img/hero-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Ocupa el 60% de la altura de la pantalla */
+}
+
+/* Ajustes al Navbar */
+.navbar-brand {
+    letter-spacing: 2px; /* Espaciado de letras para estilo moderno */
+}
+
+/* Ajustes Cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    border-color: #ffffff !important; /* Borde blanco al hover */
+}
+
+/* Botones Primarios (Azul vibrante o Personalizado) */
+.btn-primary {
+    background-color: #3b5bdb; /* Azul oscuro digital */
+    border-color: #3b5bdb;
+}
+
+.btn-primary:hover {
+    background-color: #2a45b8;
+}
+
+.card-img-top {
+    width: 100%;            /* Ocupa todo el ancho de la tarjeta */
+    height: 350px;          /* Altura fija OBLIGATORIA para todas */
+    object-fit: cover;      /* Recorta la imagen para llenar el hueco */
+    object-position: center; /* Asegura que el recorte se centre */
+}
