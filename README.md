@@ -62,7 +62,8 @@ La aplicación cargará las plantillas Thymeleaf y podrás navegar a `http://loc
 
 ---
 
-[📂 Ver Código Fuente](https://github.com/Lfiedlerf/M7_AE3_ABP)
+[📂 Ver Código inicial](https://github.com/Lfiedlerf/nvmeless_ecommerce)
+[📂 Ver Código actual](https://github.com/Lfiedlerf/ecommerce)
 
 ---
 *Esta fracción de portafolio fue desarrollado como parte del Bootcamp Full Stack Java Trainee - Módulo 7: Desarrollo de un portafolio digital.*
